@@ -7,3 +7,5 @@ tensor_3d = tf.convert_to_tensor(tensor_3d, dtype=tf.float64)
 with tf.Session() as sess:
  print (tensor_3d.get_shape())
  print sess.run(tensor_3d)
+
+print ("hello tensorflow")
