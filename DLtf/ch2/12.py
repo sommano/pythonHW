@@ -15,4 +15,4 @@ examples_to_show = 10
 n_hidden_1 = 256 # 1st layer num features
 n_hidden_2 = 128 # 2nd layer num features
 n_input = 784 # MNIST data input (img shape: 28*28)
-X = tf.placeholder("float", [None, n_input])
+
